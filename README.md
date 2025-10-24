@@ -15,7 +15,7 @@
 🛠️ Как запустить локально
 
 1. Клонируйте проект:
-git clone https://github.com/Polyapolyapolya/GeneratorOfCompliment
+git clone https://github.com/Polyapolyapolya/ComplimentGenerator
 2. Перейдите в папку проекта:
 cd my-app
 3. Откройте файл index.html в любом браузере — готово! 
