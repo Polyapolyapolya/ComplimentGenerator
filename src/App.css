@@ -1,0 +1,61 @@
+.card {
+  width: 400px;
+  height: 300px;
+  position: absolute;
+  top: 45%;
+  left:50%;
+  margin: -250px 0 0 -250px;
+  box-shadow: 1px 1px 15px rgb(168, 168, 168);
+  border-radius: 10px;
+  text-align: center;
+  padding: 45px 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  background-image: url('../src/bgpic.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  font-size: 1.0rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #036eff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #66a6ff;
+}
+
+.compliment-box {
+  margin-top: 30px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0 4px 12px rgba(163, 80, 120, 0.1);
+  max-width: 500px;
+  animation: fadeIn 0.6s ease-in;
+}
+
+.compliment-box p {
+  font-size: 1.2rem;
+  color: #f741e2;
+  margin: 0;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
